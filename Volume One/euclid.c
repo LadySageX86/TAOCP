@@ -16,7 +16,7 @@ int main(int argc, char* argv[]) {
 		return 1;
 	}
 
-	printf("The lowest common divisor of %d and %d is %d.\n", m, n, euclid(m, n));
+	printf("The greatest common divisor of %d and %d is %d.\n", m, n, euclid(m, n));
 }
 
 int euclid(int m, int n) {
