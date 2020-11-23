@@ -12,11 +12,11 @@ int main(int argc, char* argv[]) {
 	int n = atoi(argv[2]);
 
 	if (m <= 0 || n <= 0) {
-		printf("Please provide two positive integers");
+		printf("Please provide two positive integers.\n");
 		return 1;
 	}
 
-	printf("The lowest common divisor of %d and %d is %d\n", m, n, euclid(m, n));
+	printf("The lowest common divisor of %d and %d is %d.\n", m, n, euclid(m, n));
 }
 
 int euclid(int m, int n) {
