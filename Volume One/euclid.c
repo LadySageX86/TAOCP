@@ -11,7 +11,7 @@ int main(int argc, char* argv[]) {
 	int m = atoi(argv[1]);
 	int n = atoi(argv[2]);
 
-	if (m < 0 || n < 0) {
+	if (m <= 0 || n <= 0) {
 		printf("Please provide two positive integers");
 		return 1;
 	}
