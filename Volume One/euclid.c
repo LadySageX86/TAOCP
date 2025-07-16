@@ -1,6 +1,6 @@
 // Euclid's algorithm (Algorithm 1.1E)
 // Find the greatest common divisor of two positive integers
-// Implementation by Spencer Smith (spenny@geniuspiece.com)
+// Implementation by Sage Smith (sagemistressmods@gmail.com)
 
 #include <stdio.h>
 #include <stdlib.h>
